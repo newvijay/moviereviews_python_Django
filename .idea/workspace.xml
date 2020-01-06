@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5af882e9-b141-4034-8c5b-61aaf163b60c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movieapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movieapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviereview/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereview/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movieapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578245740256</updated>
-      <workItem from="1578245744059" duration="24369000" />
+      <workItem from="1578245744059" duration="25554000" />
     </task>
     <servers />
   </component>
