@@ -18,6 +18,10 @@
         <a href="/" class="brand-logo">Vijay Movie Reviews</a>
         <ul id="nav-mobile" class="right">
             <li><a href="/">Home</a></li>
+            <li><a href="/">Previous</a></li>
+            <li><a href="{% url 'nextpage' %}">Next</a></li>
+            {% block content %}
+            {% endblock %}
         </ul>
     </div>
 </nav>
@@ -33,13 +37,9 @@
                         <a href="{{ review.4 }}"><p>{{ review.0 }}</p></a>
                     </div>
                     <div class="movie-release-date">
-                        <p>Release Date: {{ review.2 }}</p>
-                    </div>
-                    <div class="movie-rating">
+                        <p>{{ review.2 }}</p>
                         <a href="{{ review.4 }}">Rating {{ review.1 }}</a>
-                    </div>
-                    <div class="movie-rating">
-                        <a href="{{ review.4 }}"><img src="{{ review.5 }}" alt=""></a>
+                         <a href="{{ review.4 }}"><img src="{{ review.6 }}" alt=""></a>
                     </div>
                 </div>
             </div>
